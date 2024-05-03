@@ -1,0 +1,17 @@
+.monster-creator__input-name {
+  width: 85%;
+  margin: $gutter-s;
+  margin-left: $gutter-l;
+  height: $gutter-m;
+}
+
+.monster-creator__input {
+  background-color: $input-color;
+}
+.monster-list__search-input {
+  width: 50%;
+  margin: $gutter-s;
+  margin-left: $gutter-l;
+  height: $gutter-m;
+  background-color: $input-color;
+}

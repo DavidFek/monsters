@@ -1,0 +1,53 @@
+.main-wrapper {
+  @include flexy(column, center, center);
+}
+
+.monster-creator {
+  &__wrapper {
+    @include flexy(column, center, center);
+    border: $border-general;
+    width: 50%;
+  }
+
+  &__element-selector {
+    @include flexy(null, center, center);
+    margin: $gutter-l;
+    gap: $gutter-l;
+  }
+
+  &__attribute-wrapper {
+    @include flexy(null, center, center);
+    gap: $gutter-s;
+  }
+
+  &__submit-wrapper {
+    @include flexy(null, center, center);
+    margin: $gutter-l;
+  }
+}
+
+.monsters-list {
+  &__wrapper {
+    @include flexy(column, center, center);
+    width: 50%;
+  }
+}
+
+.monster-item {
+  &__wrapper {
+    @include flexy(null, space-between, center);
+    gap: $gutter-s;
+    border: $border-general;
+    width: 100%;
+    padding: $gutter-l;
+  }
+
+  &__info-wrapper {
+    @include flexy(column, center, left);
+  }
+
+  &__info-stats-wrapper {
+    @include flexy(null, center, center);
+    gap: $gutter-l;
+  }
+}

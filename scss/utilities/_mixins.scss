@@ -1,0 +1,12 @@
+@mixin flexy($dir: null, $just: null, $alignc: null) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $alignc;
+}
+
+@mixin sizer($dim, $brdr: null) {
+  width: $dim;
+  height: $dim;
+  border-radius: $brdr;
+}

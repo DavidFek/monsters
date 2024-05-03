@@ -1,0 +1,11 @@
+.main {
+  &__title {
+    font-size: $font-size-xl;
+  }
+
+  &__subtitle {
+    font-size: $font-size-l;
+    text-align: left;
+    width: 50%;
+  }
+}

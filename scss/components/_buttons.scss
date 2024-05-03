@@ -1,0 +1,16 @@
+.monster-creator__submit {
+  @include flexy(column, center, center);
+  width: 50%;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: $button-border;
+  background: $button-color-primary;
+  color: $button-color-secondary;
+}
+
+.monster-item__delete-btn {
+  margin-right: $gutter-xl;
+  padding: 0;
+  border: none;
+  background-color: $base-color;
+}

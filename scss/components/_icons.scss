@@ -1,0 +1,33 @@
+.main__img {
+  margin-top: $gutter-l;
+  @include sizer(200px);
+}
+
+.monster-creator {
+  &__element {
+    @include sizer(100px);
+  }
+
+  &__attribute-img {
+    @include sizer(40px, 10%);
+  }
+
+  &__arrow {
+    @include sizer(50px, 10%);
+  }
+}
+
+.monster-item {
+  &__img {
+    @include sizer(100px);
+    margin-left: $gutter-xl;
+  }
+
+  &__img-stat {
+    @include sizer(40px, 10%);
+  }
+
+  &__delete-img {
+    @include sizer(50px, 10%);
+  }
+}
